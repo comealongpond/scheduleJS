@@ -6,3 +6,5 @@
 
 # Build
 	npx webpack --config webpack.config.js
+
+test
