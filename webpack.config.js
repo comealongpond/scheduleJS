@@ -1,9 +1,9 @@
 const path = require('path');
 
 
-module.exports = {
+module.exports = env => ({
   entry: './src/index.ts',
-  mode: 'development',
+  mode: env.mode == 'production' ? 'production' : 'development',
   module: {
     rules: [
       {
@@ -20,4 +20,4 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-};
+});

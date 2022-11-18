@@ -3,5 +3,5 @@ const test = (x: number, y:number) => {
 }
 
 
-console.log('scheduleJS loaded');
+console.log('scheduleJS loaded', test(32,17));
 
