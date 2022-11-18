@@ -11,4 +11,8 @@
 	npx webpack --config webpack.config.js --env mode=production
 
 
-test
+## env
+### node
+	v18.12.1
+### npm
+	8.19.2
